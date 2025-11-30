@@ -1,0 +1,62 @@
+.dashboard-container {
+  background: #b9cee3;
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dash-card {
+  background: #d5e7f7;
+  width: 300px;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.dash-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-user {
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.dash-card h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.dash-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dash-btn {
+  background: #c7dbed;
+  border: none;
+  padding: 12px;
+  border-radius: 14px;
+  font-size: 15px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dash-btn:hover {
+  background: #b8cce0;
+}
+
+.dash-btn span {
+  background: #fff;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
